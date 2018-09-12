@@ -1,5 +1,5 @@
 Angular Restaurant
-- This should include an app called FoodApp and a controller called FoodController.
+- This should include an app called ```FoodApp``` and a controller called ```FoodController```.
 - Create an array of foods (strings) in that controller, and show each of those items in a list on the DOM.
 - After that, make an input field, and a button that allows a user to add a new food to the list.
 
