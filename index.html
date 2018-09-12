@@ -14,11 +14,11 @@
     <div ng-controller="FoodController as vm">
 
         <div>
-            <input placeholder="Food to add" type="text">
+            <input ng-model="vm.message" id="foodToAdd" placeholder="Food to add" type="text">
             <button ng-click="vm.append()">Add Food</button>
         </div>
         
-        <ul>
+        <ul id="outputList">
             <li ng-repeat="thing in vm.foods">
                 {{thing}}
             </li>
