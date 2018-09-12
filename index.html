@@ -12,6 +12,11 @@
     <h1>Angular Restaurant</h1>
 
     <div ng-controller="FoodController as vm">
+
+        <div>
+            <input placeholder="Food to add" type="text">
+            <button ng-click="vm.append()">Add Food</button>
+        </div>
         
         <ul>
             <li ng-repeat="thing in vm.foods">

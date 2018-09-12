@@ -8,5 +8,8 @@ foodApp.controller('FoodController', function () {
 
     self.message = 'Hello';
     self.foods = ['steak', 'lobster', 'coq a vin', 'spam with plain white rice'];
-    
+    self.append = function () {
+        console.log('clicked');
+    }
+
 })
